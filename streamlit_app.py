@@ -5,7 +5,7 @@ from kalman_filter import KalmanFilter # Import your KalmanFilter class
 
 st.set_page_config(layout="wide")
 
-st.title("🔋 Lithium-Ion Battery SOH Estimation (Kalman Filter Simulation)")
+st.title("🔋 Lithium-Ion Battery SOH Estimation (Kalman Filter Simulation) from Ganesh Moorthi")
 
 st.write("""
 This application simulates the degradation of a Lithium-Ion battery's State of Health (SOH)
