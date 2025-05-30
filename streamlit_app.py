@@ -118,4 +118,5 @@ if st.sidebar.button("Run Simulation"):
     * **High Measurement Noise (R):** The Kalman Filter will rely more on its prediction model, leading to a smoother but potentially slower-to-react estimate.
     * **High Process Noise (Q):** The filter will assume more uncertainty in its internal degradation model, making it more responsive to measurements but also more susceptible to measurement noise.
     * **Initial Estimate Uncertainty (P_0):** A high initial uncertainty tells the filter to trust the first few measurements more heavily. As it processes more data, this uncertainty reduces.
+    ** **Designed and built by Ganesh Moorthi
     """)
